@@ -60,6 +60,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
 
     d3.select("#buttons")
       .append("button")
+      .attr("class","scramble")
       .text("Scramble")
       .on("click", () => {
         svg
